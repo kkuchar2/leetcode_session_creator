@@ -16,7 +16,7 @@ This is a simple script that creates a new session for you.
 2. Open index.js
 3. Enter your Leetcode session under LEETCODE_SESSION
 4. Enter your Leetcode csrf token under CSRF_TOKEN
-5. Change the name of new session in body of fetch request
+5. Change NEW_SESSION_NAME to the name of the new session you want to create
 6. Fire up your terminal and run `node index.js`
 7. Enjoy
 
