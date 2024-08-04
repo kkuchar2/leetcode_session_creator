@@ -8,6 +8,8 @@ and the button to create a new session is not clickable,
 sooo we cannot create new sessions anymore.
 This is a simple script that creates a new session for you.
 
+![image](https://github.com/user-attachments/assets/95a6c543-90d8-483c-ae67-63e1dc5e543a)
+
 ## How to use
 
 1. Clone the repository, make sure you have Node.js installed
