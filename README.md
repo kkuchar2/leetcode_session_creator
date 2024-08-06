@@ -34,5 +34,6 @@ it's nothing we can do.
 
 ## Disclaimer
 
-Leetcode may change the way they handle sessions at any time
-and this script may stop working. Use it until you can :)
+Use at your own risk. Since this is not an official API. Leetcode may change the way they handle sessions at any time,
+remove this endpoint, rate limit it, or do anything else. Since this script is using deprecated way
+of creating sessions, it's just a matter of time when they will remove it and this script will stop working.
