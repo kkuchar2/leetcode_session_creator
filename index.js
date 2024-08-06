@@ -33,6 +33,6 @@ const options = {
     }),
     method: "PUT"
 };
-const maxRetries = 15; // Set the maximum number of retries
+const maxRetries = 50; // Set the maximum number of retries you are welcome to change this value
 
 fetchWithRetry(url, options, maxRetries);
