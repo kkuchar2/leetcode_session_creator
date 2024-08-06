@@ -20,8 +20,10 @@ This is a simple script that creates a new session for you.
 6. Fire up your terminal and run `node index.js`
 7. Enjoy
 
-WARNING: Sometimes Leetcode servers reject requests with 403 (maybe it hits new (post deprecation) server nodes with their Load Balancer)
-I have added retries count to make request until it works. If it stops working completely (and I'm sure it will after some time)
+WARNING: Sometimes Leetcode servers reject requests with 403 (maybe it hits new (post deprecation) server nodes with their Load Balancer
+(just a guess).
+
+I have added retries count to make requests run until it passes with 200. If it stops working completely (and I'm sure it will after some time)
 it's nothing we can do.
 
 ## How to get Leetcode session and csrf token
