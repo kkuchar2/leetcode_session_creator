@@ -1,6 +1,7 @@
 const LEETCODE_SESSION = "MY_LEETCODE_SESSION"
 const CSRF_TOKEN = "MY_CSRF_TOKEN"
 const NEW_SESSION_NAME = "MyNewSession1";
+const UA = "Mozilla/5.0";
 
 const fetchWithRetry = async (url, options, retries) => {
     for (let i = 0; i < retries; i++) {
@@ -24,6 +25,7 @@ const options = {
     headers: {
         "content-type": "application/json",
         "x-csrftoken": CSRF_TOKEN,
+        "User-Agent": UA,
         "x-requested-with": "XMLHttpRequest",
         "cookie": `LEETCODE_SESSION=${LEETCODE_SESSION};`
     },
