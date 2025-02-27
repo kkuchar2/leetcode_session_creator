@@ -12,7 +12,7 @@ This is a simple script that creates a new session for you.
 
 ## How to use
 
-1. Clone the repository, make sure you have Node.js installed
+1. Clone the repository, make sure you have Node.js version 18+ installed
 2. Open index.js
 3. Enter your Leetcode session under LEETCODE_SESSION
 4. Enter your Leetcode csrf token under CSRF_TOKEN
@@ -29,7 +29,7 @@ it's nothing we can do.
 ## How to get Leetcode session and csrf token
 
 1. Open Leetcode in your browser
-2. Open developer tools
+2. Open browser's developer tools
 3. Go to Application tab
 4. Find the cookies section
 5. Copy the value of `LEETCODE_SESSION` and `csrftoken`
